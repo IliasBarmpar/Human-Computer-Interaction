@@ -1,0 +1,173 @@
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add an orangebackground color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+  height: 100px;
+}
+
+
+/* Style the links inside the navigation bar*/
+.topnav a{
+  margin-top:20px;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+/*Style the logo image*/
+.topnav #logo{
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 60px;
+  width: 150px;
+}
+
+/* Change the color of links on hover*/
+.topnav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+/*the profil icon*/
+.topnav #profil{
+  width: 50px;
+  height: 50px;
+  margin-top: -8px;
+
+}
+
+#profil:hover{
+  background-color: white;
+}
+
+
+/* Style the search box inside the navigation bar */
+.searchbar {
+  float: right ;
+  border: none;
+  margin-right: 10px ;
+  font-size: 10px ;
+  margin-top:30px;
+}
+
+
+/*breadcrumbs*/
+/* Style the list */
+ul.breadcrumb {
+ padding: 10px 16px;
+ list-style: none;
+ background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+ display: inline;
+ font-size: 18px;
+}
+
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+ color: #0275d8;
+ text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+ color: #01447e;
+ text-decoration: underline;
+}
+
+.profil1{
+  padding-left: 20px;
+}
+.profil1 a{
+  text-decoration: none;
+  border-style: outset;
+  color: black;
+  padding: 8px;
+  margin: 8px;
+}
+
+.profil1 a:hover{
+  background-color: black;
+  color: white;
+}
+
+/*Form styling*/
+
+.form1
+input{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+
+}
+
+.form1
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* for all buttons */
+.form1
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+/*style the footer*/
+.footer{
+  display: inline-block;;
+  margin: auto;
+  padding-left: 400px;
+  list-style: none;
+  padding-top:100px;
+}
+
+.footer img{
+  padding: 0px;
+  width: 40%;
+}
+
+.footer li  {
+  list-style: none;
+  float: left;
+}
+
+</style>

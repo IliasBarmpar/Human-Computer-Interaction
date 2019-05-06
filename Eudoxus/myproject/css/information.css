@@ -1,0 +1,157 @@
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add an orangebackground color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+  height: 100px;
+}
+
+
+/* Style the links inside the navigation bar*/
+.topnav a{
+  margin-top:20px;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+/*Style the logo image*/
+.topnav #logo{
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 60px;
+  width: 150px;
+}
+
+/* Change the color of links on hover*/
+.topnav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+/*the profil icon*/
+.topnav #profil{
+  width: 50px;
+  height: 50px;
+  margin-top: -8px;
+
+}
+
+#profil:hover{
+  background-color: white;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav .searchbar {
+  float: right;
+  border: none;
+  margin-right: 10px;
+  font-size: 10px;
+  margin-top:30px;
+}
+
+
+/*breadcrumbs*/
+/* Style the list */
+ul.breadcrumb {
+ padding: 10px 16px;
+ list-style: none;
+ background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+ display: inline;
+ font-size: 18px;
+}
+
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+ color: #0275d8;
+ text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+ color: #01447e;
+ text-decoration: underline;
+}
+
+
+/*style the information*/
+.information{
+  margin-left: 50px;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{  /*πληροφορίες*/
+  font-size: 25px;
+  color: #696969;
+  padding-top: 30px;]
+  font-weight: normal;
+}
+
+h2{ /*δήλωση συγγραμμάτων*/
+  font-size: 20px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+h3{ /*the questions*/
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+h4{/*the answers*/
+  font-size: 13px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+h4 a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+h4 a:hover {
+  color: #696969;
+}
+
+
+/*style the footer*/
+.footer{
+  display: inline-block;;
+  margin: auto;
+  padding-left: 400px;
+  list-style: none;
+}
+
+.footer img{
+  padding: 0px;
+  width: 40%;
+}
+
+.footer li  {
+  list-style: none;
+  float: left;
+}
+
+</style>
